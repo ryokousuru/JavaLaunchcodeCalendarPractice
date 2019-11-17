@@ -9,7 +9,7 @@ import java.util.Scanner;
 //import java.util.*;   * import statement increases compilation time
 
 public class CalendarPractice {
-    
+
 
     public static void main(String[] args) {
 
