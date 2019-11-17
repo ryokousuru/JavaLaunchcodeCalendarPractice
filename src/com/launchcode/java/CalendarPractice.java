@@ -9,19 +9,7 @@ import java.util.Scanner;
 //import java.util.*;   * import statement increases compilation time
 
 public class CalendarPractice {
-
-    private class Difference{
-        private int[] elements;
-        public int maximumDifference;
-
-        Difference(int[] a){
-            elements = a;
-        }
-        public void computeDifference(){
-            Arrays.sort(elements);
-            maximumDifference = Math.abs(elements[elements.length - 1] - elements[0]);
-        }
-    }
+    
 
     public static void main(String[] args) {
 
@@ -38,12 +26,6 @@ public class CalendarPractice {
         for (int c = 0; c < b; c += 1){
             array[c] = sc.nextInt();
         }
-        Difference difference = new Difference(array);
-
-        difference.computeDifference();
-
-        sc.close();
-        System.out.println(difference.maximumDifference);
 
     }
 }
